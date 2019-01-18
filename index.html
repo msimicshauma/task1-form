@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Task 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="info-container">
+        <div class="percentage-container">
+          <div id="percentage">0%</div>
+        </div>
+        <div class="text-container">
+          <p class="small-text">New York State</p>
+          <p class="big-text">Request for Contact</p>
+        </div>
+      </div>
+      <div class="form-container">
+        <form>
+          <div class="input-container">
+            <div class="number">
+              <div>1</div>
+            </div>
+            <div class="completed" id="completed1"></div>
+            <div class="input-items">
+              <label for="firstname">First Name</label><br>
+              <input type="text" id="firstname" name="firstname"/>
+            </div>
+          </div>
+          <div class="input-container">
+            <div class="number">
+              <div>2</div>
+            </div>
+            <div class="completed" id="completed2"></div>
+            <div class="input-items">
+              <label for="lastname">Last Name</label><br>
+              <input type="text" id="lastname" name="lastname"/>
+            </div>
+          </div>
+          <div class="input-container">
+            <div class="number">
+              <div>3</div>
+            </div>
+            <div class="completed" id="completed3"></div>
+            <div class="input-items">
+              <label for="email">Email Address</label><br>
+              <input type="email" id="email" name="email"/>
+            </div>
+          </div>
+          <div class="radio-container">
+            <div class="number">
+              <div>4</div>
+            </div>
+            <div class="completed" id="completed4"></div>
+            <div class="radio-items">
+              <p>What is the best time to contact you?</p><br>
+              <div>
+                <div class="radio-group">
+                  <input id="monday" type="radio" name="time" value="Monday 3pm">
+                  <label for="monday">Monday 3pm</label>
+                </div>
+                <div class="radio-group">
+                  <input id="tuesday" type="radio" name="time" value="Tuesday 3pm">
+                  <label for="tuesday">Tuesday 3pm</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button id="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
